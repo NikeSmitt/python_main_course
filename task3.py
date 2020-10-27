@@ -2,6 +2,21 @@
 # Например, пользователь ввёл число 3. Считаем 3 + 33 + 333 = 369 
 
 
+def task3_amend(user_input):
+    value = int(user_input)
+    result = 0
+    candidate = 0
+    for n in range(3):
+        candidate *= 10
+        candidate += value
+        result += candidate
+    return result
+    # можно просто форматированием строки
+    # return f"{value + (value*10 + value) + (value * 100 + (value*10 + value))}"
+
+
+
+
 def task3(user_input):
     value = int(user_input)
     sum_result = 0
@@ -47,5 +62,6 @@ def test_task3():
 
 
 if __name__ == '__main__':
-    test_task3()
-    print(task3('3'))
+    # test_task3()
+    # print(task3('3'))
+    print(task3_amend('3'))
