@@ -15,14 +15,17 @@
 def task_5(user_input, rating_list):
     try:
         new_score = int(user_input)
+        inserted = False
         for idx in range(len(rating_list)):
             if new_score > rating_list[idx]:
                 rating_list.insert(idx, new_score)
+                inserted = True
                 break
 
-            # это надо переделать!!!!
-            elif idx + 1 == len(rating_list):
-                rating_list.append(new_score)
+        # костыль какой-то получился, но ничего не смог придумать красивей
+        if not inserted:
+            rating_list.append(new_score)
+
     except ValueError:
         print('Ошибка ввода. Введите натуральное число.')
         return
@@ -31,6 +34,6 @@ def task_5(user_input, rating_list):
 
 if __name__ == "__main__":
     my_list = [7, 5, 3, 3, 2]
-    # task_5('3', my_list[:])
-    # task_5('8', my_list[:])
+    task_5('3', my_list[:])
+    task_5('8', my_list[:])
     task_5('1', my_list[:])

@@ -8,6 +8,5 @@ def task1():
         print(f'{str(item):>30} : {type(item)}')
 
 
-
 if __name__ == '__main__':
     task1()

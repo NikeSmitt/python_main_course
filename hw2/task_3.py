@@ -2,29 +2,36 @@
 # весна, лето, осень). Напишите решения через list и через dict.
 
 def task_3_dict(user_input):
-    periods = {1: 'зима', 2: 'зима', 3: 'весна', 4: 'весна', 5: 'весна', 6: 'лето',
-               7: 'лето', 8: 'лето', 9: 'осень', 10: 'осень', 11: 'осень', 12: 'зима'}
+    seasons = {0: 'зима', 1: 'весна', 2: 'лето', 3: 'осень'}
 
     error_message = 'Ошибка ввода. Введите число от 1 до 12'
     try:
-        return periods.get(int(user_input), error_message)
-    except ValueError:
+        month_num = int(user_input)
+        if not 0 < month_num < 13:
+            raise IndexError
+
+        return seasons.get(month_num // 3 % 4)
+    except (IndexError, ValueError):
         print(error_message)
 
 
 def task_3_list(user_input):
-    periods = ['зима', 'зима', 'весна', 'весна', 'весна', 'лето',
-               'лето', 'лето', 'осень', 'осень', 'осень', 'зима']
+    periods = ['зима', 'весна', 'лето', 'осень']
+    error_message = 'Ошибка ввода. Введите число от 1 до 12'
     try:
-        return periods[int(user_input) - 1]
+        month_num = int(user_input)
+        if not 0 < month_num < 13:
+            raise IndexError
+
+        return periods[month_num // 3 % 4]
     except (ValueError, IndexError):
-        print('Ошибка ввода. Введите число от 1 до 12')
+        print(error_message)
 
 
 if __name__ == "__main__":
     input_1 = '1'
-    input_2 = '9'
-    input_3 = 'f'
+    input_2 = '2'
+    input_3 = '12'
 
     print(task_3_list(input_1))
     print(task_3_list(input_2))
