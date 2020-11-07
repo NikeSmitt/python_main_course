@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="22cd0058-b315-4666-82c2-cb65e1fd1a88" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1jxZR8lPAjxm8Ni17KgskACtKc1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/task_3" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/task_3" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/task_2" />
+      <recent name="$PROJECT_DIR$/task_1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.task_7">
+    <configuration name="task_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hw5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task_1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_1/task_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_1" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="hw5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_1/task_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hw5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_2/task_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hw5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task_2" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_2/task_2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hw5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task_5" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_5/task_5.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hw5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task_6" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_6/task_6.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task_7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="hw5" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task_7" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task_7/task_7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.task_7" />
+        <item itemvalue="Python.task_1" />
+        <item itemvalue="Python.task_6" />
+        <item itemvalue="Python.task_5" />
+        <item itemvalue="Python.task_2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22cd0058-b315-4666-82c2-cb65e1fd1a88" name="Default Changelist" comment="" />
+      <created>1604747691572</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604747691572</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="670" y="382" key="#Notifications" timestamp="1604748074029">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="670" y="382" key="#Notifications/-1080.-496.1080.1897/0.23.1920.1057@0.23.1920.1057" timestamp="1604748074029" />
+    <state x="718" y="428" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1604747808596">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="718" y="428" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/-1080.-496.1080.1897/0.23.1920.1057@0.23.1920.1057" timestamp="1604747808596" />
+    <state width="2027" height="195" key="GridCell.Tab.0.bottom" timestamp="1604786577779">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state width="1899" height="325" key="GridCell.Tab.0.bottom/-1080.-496.1080.1897/0.23.1920.1057@0.23.1920.1057" timestamp="1604773145995" />
+    <state width="2027" height="195" key="GridCell.Tab.0.bottom/-1152.-496.1152.2025/0.23.2048.1129@0.23.2048.1129" timestamp="1604786577779" />
+    <state width="2027" height="195" key="GridCell.Tab.0.center" timestamp="1604786577779">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state width="1899" height="325" key="GridCell.Tab.0.center/-1080.-496.1080.1897/0.23.1920.1057@0.23.1920.1057" timestamp="1604773145994" />
+    <state width="2027" height="195" key="GridCell.Tab.0.center/-1152.-496.1152.2025/0.23.2048.1129@0.23.2048.1129" timestamp="1604786577779" />
+    <state width="2027" height="195" key="GridCell.Tab.0.left" timestamp="1604786577778">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state width="1899" height="325" key="GridCell.Tab.0.left/-1080.-496.1080.1897/0.23.1920.1057@0.23.1920.1057" timestamp="1604773145993" />
+    <state width="2027" height="195" key="GridCell.Tab.0.left/-1152.-496.1152.2025/0.23.2048.1129@0.23.2048.1129" timestamp="1604786577778" />
+    <state width="2027" height="195" key="GridCell.Tab.0.right" timestamp="1604786577779">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state width="1899" height="325" key="GridCell.Tab.0.right/-1080.-496.1080.1897/0.23.1920.1057@0.23.1920.1057" timestamp="1604773145994" />
+    <state width="2027" height="195" key="GridCell.Tab.0.right/-1152.-496.1152.2025/0.23.2048.1129@0.23.2048.1129" timestamp="1604786577779" />
+    <state width="2027" height="386" key="GridCell.Tab.1.bottom" timestamp="1604783577954">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state width="1899" height="358" key="GridCell.Tab.1.bottom/-1080.-496.1080.1897/0.23.1920.1057@0.23.1920.1057" timestamp="1604770437968" />
+    <state width="2027" height="386" key="GridCell.Tab.1.bottom/-1152.-496.1152.2025/0.23.2048.1129@0.23.2048.1129" timestamp="1604783577954" />
+    <state width="2027" height="386" key="GridCell.Tab.1.center" timestamp="1604783577954">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state width="1899" height="358" key="GridCell.Tab.1.center/-1080.-496.1080.1897/0.23.1920.1057@0.23.1920.1057" timestamp="1604770437967" />
+    <state width="2027" height="386" key="GridCell.Tab.1.center/-1152.-496.1152.2025/0.23.2048.1129@0.23.2048.1129" timestamp="1604783577954" />
+    <state width="2027" height="386" key="GridCell.Tab.1.left" timestamp="1604783577954">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state width="1899" height="358" key="GridCell.Tab.1.left/-1080.-496.1080.1897/0.23.1920.1057@0.23.1920.1057" timestamp="1604770437967" />
+    <state width="2027" height="386" key="GridCell.Tab.1.left/-1152.-496.1152.2025/0.23.2048.1129@0.23.2048.1129" timestamp="1604783577954" />
+    <state width="2027" height="386" key="GridCell.Tab.1.right" timestamp="1604783577954">
+      <screen x="0" y="23" width="2048" height="1129" />
+    </state>
+    <state width="1899" height="358" key="GridCell.Tab.1.right/-1080.-496.1080.1897/0.23.1920.1057@0.23.1920.1057" timestamp="1604770437968" />
+    <state width="2027" height="386" key="GridCell.Tab.1.right/-1152.-496.1152.2025/0.23.2048.1129@0.23.2048.1129" timestamp="1604783577954" />
+    <state x="625" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1604756859005">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="625" y="258" width="670" height="676" key="search.everywhere.popup/-1080.-496.1080.1897/0.23.1920.1057@0.23.1920.1057" timestamp="1604756859005" />
+  </component>
+</project>
