@@ -21,9 +21,7 @@ output_file = open(OUTPUT_FILE_NAME, 'w', encoding='utf-8')
 
 for line in src_file.readlines():
     line_list = line.split()
-    print(line_list)
     line_list[0] = digits_vocab.get(line_list[0], '***')
-
     output_file.write(f"{' '.join(line_list)}\n")
 
 output_file.close()
