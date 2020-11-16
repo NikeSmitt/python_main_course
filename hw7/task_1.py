@@ -9,6 +9,9 @@
 class Matrix:
 
     def __init__(self, matrix):
+        # проверяем, что все подмассивы имеют одинаковое количество элементов
+        if not all([len(matrix[0]) == len(matrix[i]) for i in range(1, len(matrix))]):
+            raise ValueError('Matrix have different quantity of elements in vectors')
         self.__matrix = matrix
 
     def __str__(self):
@@ -25,7 +28,7 @@ class Matrix:
                 res_arrays.append([other.__matrix[i][j] + self.__matrix[i][j] for j in range(len(self.__matrix[0]))])
             return Matrix(res_arrays)
         else:
-            print('Value error: matrices have different quantity of elements')
+            raise ValueError('Value error: matrices have different quantity of elements')
 
 
 m1 = Matrix([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
