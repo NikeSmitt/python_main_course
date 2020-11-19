@@ -24,8 +24,8 @@ class Matrix:
         # проверяем, что матрицы имеют одинаковую размерность
         if len(self.__matrix) == len(other.__matrix) and len(self.__matrix[0]) == len(other.__matrix[0]):
             res_arrays = []
-            for i in range(len(self.__matrix)):
-                res_arrays.append([other.__matrix[i][j] + self.__matrix[i][j] for j in range(len(self.__matrix[0]))])
+            for row_matrix_1, row_matrix_2 in zip(self.__matrix, other.__matrix):
+                res_arrays.append([a + b for a, b in zip(row_matrix_1, row_matrix_2)])
             return Matrix(res_arrays)
         else:
             raise ValueError('Value error: matrices have different quantity of elements')
@@ -38,4 +38,4 @@ print(m1 + m2)
 
 m3 = Matrix([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 m4 = Matrix([[1, 2], [4, 5]])
-print(m3 + m4)
+# print(m3 + m4)
