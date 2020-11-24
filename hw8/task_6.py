@@ -30,7 +30,26 @@ class Store:
             model_quantity_dict[item.model_number] = saved_quantity + quantity
             self._storage[item.equip_type] = model_quantity_dict
 
-        print(self._storage)
+    def __str__(self):
+        return str(self._storage)
+
+    def send_item_to_department(self, type_of_item, model, quantity=1):
+        try:
+            if type_of_item not in self._storage:
+                raise ValueError(f'There is not your type <{type_of_item}> of equipment')
+
+            if model not in self._storage[type_of_item]:
+                raise ValueError(f'There is not your model <{model}> of equipment')
+
+            stored_quantity = self._storage[type_of_item][model] - quantity
+            if stored_quantity < 0:
+                raise ValueError('There are not enough items of your equipment')
+            elif stored_quantity == 0:
+                del self._storage[type_of_item][model]
+            else:
+                self._storage[type_of_item][model] = stored_quantity
+        except ValueError as e:
+            print(f'Warning from storage!!! {e}')
 
     @staticmethod
     def check_input_quantity(user_input):
@@ -83,3 +102,7 @@ store.add_item_to_storage(printer2)
 store.add_item_to_storage(Scanner('Xerox', 'Z5011', 'A4'), 2)
 store.add_item_to_storage(Scanner('Xerox', 'AS33S', 'A4'), '2')
 store.add_item_to_storage(Shredder('Kensington', 'K52075AM', 10), 5)
+
+print(store)
+store.send_item_to_department('printer', 'N33DS', 1)
+print(store)

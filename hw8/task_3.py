@@ -25,13 +25,3 @@ while True:
 
 
 print(user_list)
-
-
-
-# a = "5.2"
-#
-# if isinstance(a, (int, float)):
-#     print("number")
-# else:
-#     print('not a number')
-#

@@ -16,7 +16,7 @@ class ComplexNumber:
             raise ValueError('Invalid value used!')
 
     @classmethod
-    def create_complex_number(cls, re, im):
+    def create_complex_number(cls, re, im=0.0):
         try:
             return cls(float(re), float(im))
         except ValueError as e:
@@ -24,8 +24,8 @@ class ComplexNumber:
 
     def __str__(self):
         if self.im == 0:
-            return self.re
-        return f'{self.re:.2f} {"+" if self.im > 0 else "-"} {self.im:.2f}i'
+            return f'{self.re}'
+        return f'{self.re:.2f} {"+" if self.im > 0 else "-"} {abs(self.im):.2f}i'
 
     def __add__(self, other):
         return ComplexNumber(self.re + other.re, self.im + other.im)
@@ -39,8 +39,11 @@ class ComplexNumber:
         return ComplexNumber(new_re, new_im)
 
 
-num1 = ComplexNumber.create_complex_number(2, 5.0)
-num2 = ComplexNumber(3.0, 5)
+num1 = ComplexNumber.create_complex_number(2, 5)
+num2 = ComplexNumber(3.0, -5)
+print(num2)
 
 print(num1 + num2)
 print(num1 * num2)
+
+print(ComplexNumber.create_complex_number(2))

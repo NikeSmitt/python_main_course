@@ -18,6 +18,8 @@ class MyDate:
     def create_date(cls, date_str):
         try:
             date_list = list(map(int, date_str.split('-')))
+            if len(date_list) != 3:
+                raise ValueError('Need use three date components (day-month-year)')
             if MyDate.is_date_valid(*date_list):
                 return cls(*date_list)
         except ValueError as e:
@@ -40,9 +42,9 @@ else (it is a leap year)
             month_days = 31 if (month % 2 == 1 and month < 8) or (month % 2 == 0 and month >= 8) else 30
 
         try:
-            if day > month_days:
+            if day <= 0 or day > month_days:
                 raise ValueError('Invalid day quantity')
-            if month > 12:
+            if month <= 0 or month > 12:
                 raise ValueError('Invalid month quantity')
 
         except ValueError as e:
@@ -56,3 +58,5 @@ else (it is a leap year)
 date1 = MyDate.create_date('1-02-2011')
 print(date1)
 
+date2 = MyDate.create_date('1-0-2011')
+print(date2)
