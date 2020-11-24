@@ -9,7 +9,7 @@ class MyZeroDivisionError(Exception):
 def task_2(user_input):
     a, b = list(map(int, user_input.split()))
     try:
-        if b < 0:
+        if b == 0:
             raise MyZeroDivisionError('Trying divide by zero!!')
         else:
             print(a / b)
@@ -19,3 +19,4 @@ def task_2(user_input):
 
 task_2('2 5')
 task_2('2 0')
+task_2('2 -5')
